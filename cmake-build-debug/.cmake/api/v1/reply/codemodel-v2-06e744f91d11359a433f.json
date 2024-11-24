@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "1-stack-pilha",
+					"jsonFile" : "directory-1-stack-pilha-Debug-78184e93e3f9a8e92922.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "1-stack-pilha",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "2-queue-fila",
+					"jsonFile" : "directory-2-queue-fila-Debug-a1b8b4634364cfcf1118.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "2-queue-fila",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MyChallenges"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "stack",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "queue",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "queue::@827132428d02ad79dbfd",
+					"jsonFile" : "target-queue-Debug-3b9f7de66e1b8a34b035.json",
+					"name" : "queue",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "stack::@2b80f126cd4661cc648f",
+					"jsonFile" : "target-stack-Debug-c5d6980f2922f335bd99.json",
+					"name" : "stack",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sergio/Documents/Estudos/Estudos pr\u00f3prios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug",
+		"source" : "/home/sergio/Documents/Estudos/Estudos pr\u00f3prios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
