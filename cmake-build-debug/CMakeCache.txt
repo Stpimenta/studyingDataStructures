@@ -225,6 +225,15 @@ MyChallenges_IS_TOP_LEVEL:STATIC=ON
 MyChallenges_SOURCE_DIR:STATIC=/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures
 
 //Value Computed by CMake
+linkedlist_BINARY_DIR:STATIC=/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada
+
+//Value Computed by CMake
+linkedlist_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+linkedlist_SOURCE_DIR:STATIC=/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/3-linkedList-ListaEncadeada
+
+//Value Computed by CMake
 queue_BINARY_DIR:STATIC=/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/2-queue-fila
 
 //Value Computed by CMake
@@ -343,7 +352,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

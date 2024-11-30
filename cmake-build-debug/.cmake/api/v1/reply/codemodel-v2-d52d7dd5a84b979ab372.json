@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -31,7 +32,7 @@
 					"source" : "1-stack-pilha",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -46,6 +47,21 @@
 					"source" : "2-queue-fila",
 					"targetIndexes" : 
 					[
+						1
+					]
+				},
+				{
+					"build" : "3-linkedList-ListaEncadeada",
+					"jsonFile" : "directory-3-linkedList-ListaEncadeada-Debug-861593ab3e92e71c6654.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "3-linkedList-ListaEncadeada",
+					"targetIndexes" : 
+					[
 						0
 					]
 				}
@@ -57,7 +73,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"directoryIndexes" : 
 					[
@@ -74,7 +91,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -86,6 +103,18 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "linkedlist",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
 						0
 					]
 				}
@@ -93,16 +122,23 @@
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 3,
+					"id" : "linkedlist::@19a656639ef7684c7a4a",
+					"jsonFile" : "target-linkedlist-Debug-1eab94f7e05f8b9b1914.json",
+					"name" : "linkedlist",
+					"projectIndex" : 3
+				},
+				{
 					"directoryIndex" : 2,
 					"id" : "queue::@827132428d02ad79dbfd",
-					"jsonFile" : "target-queue-Debug-3b9f7de66e1b8a34b035.json",
+					"jsonFile" : "target-queue-Debug-7950b66d7b586f6be4b5.json",
 					"name" : "queue",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "stack::@2b80f126cd4661cc648f",
-					"jsonFile" : "target-stack-Debug-c5d6980f2922f335bd99.json",
+					"jsonFile" : "target-stack-Debug-5dba6f00b6e0bf52f066.json",
 					"name" : "stack",
 					"projectIndex" : 1
 				}

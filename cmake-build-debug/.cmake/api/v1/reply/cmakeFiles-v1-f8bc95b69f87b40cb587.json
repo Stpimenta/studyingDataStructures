@@ -131,6 +131,9 @@
 		},
 		{
 			"path" : "2-queue-fila/CMakeLists.txt"
+		},
+		{
+			"path" : "3-linkedList-ListaEncadeada/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -46,6 +46,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/1-stack-pilha/cmake_install.cmake")
   include("/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/2-queue-fila/cmake_install.cmake")
+  include("/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada/cmake_install.cmake")
 
 endif()
 

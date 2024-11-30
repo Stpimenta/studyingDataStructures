@@ -80,14 +80,14 @@ build cmake_object_order_depends_target_stack: phony || .
 build 1-stack-pilha/CMakeFiles/stack.dir/main.cpp.o: CXX_COMPILER__stack_unscanned_Debug /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/1-stack-pilha/main.cpp || cmake_object_order_depends_target_stack
   DEP_FILE = 1-stack-pilha/CMakeFiles/stack.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/1-stack-pilha" -I"/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/2-queue-fila"
+  INCLUDES = -I"/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/1-stack-pilha" -I"/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/2-queue-fila" -I"/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/3-linkedList-ListaEncadeada"
   OBJECT_DIR = 1-stack-pilha/CMakeFiles/stack.dir
   OBJECT_FILE_DIR = 1-stack-pilha/CMakeFiles/stack.dir
 
 build 1-stack-pilha/CMakeFiles/stack.dir/stack.cpp.o: CXX_COMPILER__stack_unscanned_Debug /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/1-stack-pilha/stack.cpp || cmake_object_order_depends_target_stack
   DEP_FILE = 1-stack-pilha/CMakeFiles/stack.dir/stack.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/1-stack-pilha" -I"/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/2-queue-fila"
+  INCLUDES = -I"/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/1-stack-pilha" -I"/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/2-queue-fila" -I"/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/3-linkedList-ListaEncadeada"
   OBJECT_DIR = 1-stack-pilha/CMakeFiles/stack.dir
   OBJECT_FILE_DIR = 1-stack-pilha/CMakeFiles/stack.dir
 
@@ -150,6 +150,12 @@ build 2-queue-fila/CMakeFiles/queue.dir/main.cpp.o: CXX_COMPILER__queue_unscanne
   OBJECT_DIR = 2-queue-fila/CMakeFiles/queue.dir
   OBJECT_FILE_DIR = 2-queue-fila/CMakeFiles/queue.dir
 
+build 2-queue-fila/CMakeFiles/queue.dir/queue/queue.cpp.o: CXX_COMPILER__queue_unscanned_Debug /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/2-queue-fila/queue/queue.cpp || cmake_object_order_depends_target_queue
+  DEP_FILE = 2-queue-fila/CMakeFiles/queue.dir/queue/queue.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = 2-queue-fila/CMakeFiles/queue.dir
+  OBJECT_FILE_DIR = 2-queue-fila/CMakeFiles/queue.dir/queue
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target queue
@@ -158,7 +164,7 @@ build 2-queue-fila/CMakeFiles/queue.dir/main.cpp.o: CXX_COMPILER__queue_unscanne
 #############################################
 # Link the executable 2-queue-fila/queue
 
-build 2-queue-fila/queue: CXX_EXECUTABLE_LINKER__queue_Debug 2-queue-fila/CMakeFiles/queue.dir/main.cpp.o
+build 2-queue-fila/queue: CXX_EXECUTABLE_LINKER__queue_Debug 2-queue-fila/CMakeFiles/queue.dir/main.cpp.o 2-queue-fila/CMakeFiles/queue.dir/queue/queue.cpp.o
   FLAGS = -g
   OBJECT_DIR = 2-queue-fila/CMakeFiles/queue.dir
   POST_BUILD = :
@@ -190,7 +196,68 @@ build 2-queue-fila/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 2-queue-fila/rebuild_cache: phony 2-queue-fila/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target linkedlist
+
+
+#############################################
+# Order-only phony target for linkedlist
+
+build cmake_object_order_depends_target_linkedlist: phony || .
+
+build 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/main.cpp.o: CXX_COMPILER__linkedlist_unscanned_Debug /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/3-linkedList-ListaEncadeada/main.cpp || cmake_object_order_depends_target_linkedlist
+  DEP_FILE = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir
+  OBJECT_FILE_DIR = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linkedlist
+
+
+#############################################
+# Link the executable 3-linkedList-ListaEncadeada/linkedlist
+
+build 3-linkedList-ListaEncadeada/linkedlist: CXX_EXECUTABLE_LINKER__linkedlist_Debug 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/main.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 3-linkedList-ListaEncadeada/linkedlist
+  TARGET_PDB = linkedlist.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 3-linkedList-ListaEncadeada/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada" && /home/sergio/clion-2024.3/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 3-linkedList-ListaEncadeada/edit_cache: phony 3-linkedList-ListaEncadeada/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 3-linkedList-ListaEncadeada/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada" && /home/sergio/clion-2024.3/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures" -B"/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 3-linkedList-ListaEncadeada/rebuild_cache: phony 3-linkedList-ListaEncadeada/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build linkedlist: phony 3-linkedList-ListaEncadeada/linkedlist
 
 build queue: phony 2-queue-fila/queue
 
@@ -204,7 +271,7 @@ build stack: phony 1-stack-pilha/stack
 #############################################
 # Folder: /home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug
 
-build all: phony 1-stack-pilha/all 2-queue-fila/all
+build all: phony 1-stack-pilha/all 2-queue-fila/all 3-linkedList-ListaEncadeada/all
 
 # =============================================================================
 
@@ -221,20 +288,27 @@ build 1-stack-pilha/all: phony 1-stack-pilha/stack
 build 2-queue-fila/all: phony 2-queue-fila/queue
 
 # =============================================================================
+
+#############################################
+# Folder: /home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada
+
+build 3-linkedList-ListaEncadeada/all: phony 3-linkedList-ListaEncadeada/linkedlist
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/1-stack-pilha/CMakeLists.txt /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/2-queue-fila/CMakeLists.txt /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/CMakeLists.txt /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/1-stack-pilha/CMakeLists.txt /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/2-queue-fila/CMakeLists.txt /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/3-linkedList-ListaEncadeada/CMakeLists.txt /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/CMakeLists.txt /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/1-stack-pilha/CMakeLists.txt /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/2-queue-fila/CMakeLists.txt /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/CMakeLists.txt /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/1-stack-pilha/CMakeLists.txt /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/2-queue-fila/CMakeLists.txt /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/3-linkedList-ListaEncadeada/CMakeLists.txt /home/sergio/Documents/Estudos/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/CMakeLists.txt /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/sergio/clion-2024.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################
