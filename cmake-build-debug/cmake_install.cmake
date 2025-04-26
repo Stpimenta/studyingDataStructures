@@ -1,4 +1,4 @@
-# Install script for directory: /home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures
+# Install script for directory: /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,9 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/1-stack-pilha/cmake_install.cmake")
-  include("/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/2-queue-fila/cmake_install.cmake")
-  include("/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada/cmake_install.cmake")
+  include("/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/1-stack-pilha/cmake_install.cmake")
+  include("/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/2-queue-fila/cmake_install.cmake")
+  include("/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada/cmake_install.cmake")
 
 endif()
 
@@ -65,6 +65,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

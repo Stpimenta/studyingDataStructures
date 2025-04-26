@@ -1,4 +1,4 @@
-# Install script for directory: /home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/1-stack-pilha
+# Install script for directory: /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/1-stack-pilha
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

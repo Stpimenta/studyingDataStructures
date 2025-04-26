@@ -17,7 +17,7 @@ void menuFunction ( Queue<std::string> *randomQueue ) {
      while (1) {
           int function;
           std::string input;
-          std::cout << " what would you like do? 1-enqueue 2-dequeue 3-front 4-size 5-quit" << std::endl;;
+          std::cout << "1-enqueue 2-dequeue 3-front 4-size 5-quit" << std::endl;;
 
           /*To fix the "infinite loop"*/
           std::getline(std::cin,input);
@@ -32,7 +32,7 @@ void menuFunction ( Queue<std::string> *randomQueue ) {
 
                case enqueue: {
                     std::string input;
-                    std::cout << " what i must input? " << std::endl;;
+                    std::cout << "What should I input? " << std::endl;;
                     std::getline(std::cin, input);
                     randomQueue->enqueue(input);
                     break;
@@ -73,7 +73,7 @@ int main () {
      /*stack size*/
      int size;
      std::cout << "i am a queue algorithm" << std::endl;
-     std::cout << "tell me how many elements should  my queue?" << std::endl;;
+     std::cout << "Tell me how many elements my queue should have?" << std::endl;;
      std::cin >> size;
      std::cin.ignore();
 

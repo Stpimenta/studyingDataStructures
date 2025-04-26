@@ -1,11 +1,11 @@
-/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/1-stack-pilha/CMakeFiles/stack.dir
-/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/1-stack-pilha/CMakeFiles/edit_cache.dir
-/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/1-stack-pilha/CMakeFiles/rebuild_cache.dir
-/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/2-queue-fila/CMakeFiles/queue.dir
-/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/2-queue-fila/CMakeFiles/edit_cache.dir
-/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/2-queue-fila/CMakeFiles/rebuild_cache.dir
-/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir
-/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada/CMakeFiles/edit_cache.dir
-/home/sergio/Documents/Estudos/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada/CMakeFiles/rebuild_cache.dir
+/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/1-stack-pilha/CMakeFiles/stack.dir
+/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/1-stack-pilha/CMakeFiles/edit_cache.dir
+/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/1-stack-pilha/CMakeFiles/rebuild_cache.dir
+/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/2-queue-fila/CMakeFiles/queue.dir
+/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/2-queue-fila/CMakeFiles/edit_cache.dir
+/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/2-queue-fila/CMakeFiles/rebuild_cache.dir
+/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir
+/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada/CMakeFiles/edit_cache.dir
+/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada/CMakeFiles/rebuild_cache.dir
