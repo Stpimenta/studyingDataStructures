@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/
+cmake_ninja_workdir = /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -56,7 +56,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures" -B"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug"
+  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms" -B"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -65,7 +65,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/CMakeLists.txt
+# /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -77,23 +77,19 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_stack: phony || .
 
-build 1-stack-pilha/CMakeFiles/stack.dir/main.cpp.o: CXX_COMPILER__stack_unscanned_Debug /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/1-stack-pilha/main.cpp || cmake_object_order_depends_target_stack
+build 1-stack-pilha/CMakeFiles/stack.dir/main.cpp.o: CXX_COMPILER__stack_unscanned_Debug /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/1-stack-pilha/main.cpp || cmake_object_order_depends_target_stack
   DEP_FILE = 1-stack-pilha/CMakeFiles/stack.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/1-stack-pilha" -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/2-queue-fila" -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/3-linkedList-ListaEncadeada"
+  INCLUDES = -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/1-stack-pilha" -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/2-queue-fila" -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/3-linkedList-ListaEncadeada" -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/4-recursion-factorial/." -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/4-recursion-sum-of-a-list/."
   OBJECT_DIR = 1-stack-pilha/CMakeFiles/stack.dir
   OBJECT_FILE_DIR = 1-stack-pilha/CMakeFiles/stack.dir
-  TARGET_COMPILE_PDB = 1-stack-pilha/CMakeFiles/stack.dir/
-  TARGET_PDB = 1-stack-pilha/stack.pdb
 
-build 1-stack-pilha/CMakeFiles/stack.dir/stack.cpp.o: CXX_COMPILER__stack_unscanned_Debug /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/1-stack-pilha/stack.cpp || cmake_object_order_depends_target_stack
+build 1-stack-pilha/CMakeFiles/stack.dir/stack.cpp.o: CXX_COMPILER__stack_unscanned_Debug /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/1-stack-pilha/stack.cpp || cmake_object_order_depends_target_stack
   DEP_FILE = 1-stack-pilha/CMakeFiles/stack.dir/stack.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/1-stack-pilha" -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/2-queue-fila" -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/3-linkedList-ListaEncadeada"
+  INCLUDES = -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/1-stack-pilha" -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/2-queue-fila" -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/3-linkedList-ListaEncadeada" -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/4-recursion-factorial/." -I"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/4-recursion-sum-of-a-list/."
   OBJECT_DIR = 1-stack-pilha/CMakeFiles/stack.dir
   OBJECT_FILE_DIR = 1-stack-pilha/CMakeFiles/stack.dir
-  TARGET_COMPILE_PDB = 1-stack-pilha/CMakeFiles/stack.dir/
-  TARGET_PDB = 1-stack-pilha/stack.pdb
 
 
 # =============================================================================
@@ -108,16 +104,15 @@ build 1-stack-pilha/stack: CXX_EXECUTABLE_LINKER__stack_Debug 1-stack-pilha/CMak
   OBJECT_DIR = 1-stack-pilha/CMakeFiles/stack.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = 1-stack-pilha/CMakeFiles/stack.dir/
   TARGET_FILE = 1-stack-pilha/stack
-  TARGET_PDB = 1-stack-pilha/stack.pdb
+  TARGET_PDB = stack.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build 1-stack-pilha/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/1-stack-pilha" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/1-stack-pilha" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -128,7 +123,7 @@ build 1-stack-pilha/edit_cache: phony 1-stack-pilha/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build 1-stack-pilha/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/1-stack-pilha" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures" -B"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug"
+  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/1-stack-pilha" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms" -B"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -137,7 +132,7 @@ build 1-stack-pilha/rebuild_cache: phony 1-stack-pilha/CMakeFiles/rebuild_cache.
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/CMakeLists.txt
+# /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -149,21 +144,17 @@ build 1-stack-pilha/rebuild_cache: phony 1-stack-pilha/CMakeFiles/rebuild_cache.
 
 build cmake_object_order_depends_target_queue: phony || .
 
-build 2-queue-fila/CMakeFiles/queue.dir/main.cpp.o: CXX_COMPILER__queue_unscanned_Debug /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/2-queue-fila/main.cpp || cmake_object_order_depends_target_queue
+build 2-queue-fila/CMakeFiles/queue.dir/main.cpp.o: CXX_COMPILER__queue_unscanned_Debug /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/2-queue-fila/main.cpp || cmake_object_order_depends_target_queue
   DEP_FILE = 2-queue-fila/CMakeFiles/queue.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
   OBJECT_DIR = 2-queue-fila/CMakeFiles/queue.dir
   OBJECT_FILE_DIR = 2-queue-fila/CMakeFiles/queue.dir
-  TARGET_COMPILE_PDB = 2-queue-fila/CMakeFiles/queue.dir/
-  TARGET_PDB = 2-queue-fila/queue.pdb
 
-build 2-queue-fila/CMakeFiles/queue.dir/queue/queue.cpp.o: CXX_COMPILER__queue_unscanned_Debug /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/2-queue-fila/queue/queue.cpp || cmake_object_order_depends_target_queue
+build 2-queue-fila/CMakeFiles/queue.dir/queue/queue.cpp.o: CXX_COMPILER__queue_unscanned_Debug /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/2-queue-fila/queue/queue.cpp || cmake_object_order_depends_target_queue
   DEP_FILE = 2-queue-fila/CMakeFiles/queue.dir/queue/queue.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
   OBJECT_DIR = 2-queue-fila/CMakeFiles/queue.dir
   OBJECT_FILE_DIR = 2-queue-fila/CMakeFiles/queue.dir/queue
-  TARGET_COMPILE_PDB = 2-queue-fila/CMakeFiles/queue.dir/
-  TARGET_PDB = 2-queue-fila/queue.pdb
 
 
 # =============================================================================
@@ -178,16 +169,15 @@ build 2-queue-fila/queue: CXX_EXECUTABLE_LINKER__queue_Debug 2-queue-fila/CMakeF
   OBJECT_DIR = 2-queue-fila/CMakeFiles/queue.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = 2-queue-fila/CMakeFiles/queue.dir/
   TARGET_FILE = 2-queue-fila/queue
-  TARGET_PDB = 2-queue-fila/queue.pdb
+  TARGET_PDB = queue.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build 2-queue-fila/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/2-queue-fila" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/2-queue-fila" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -198,7 +188,7 @@ build 2-queue-fila/edit_cache: phony 2-queue-fila/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build 2-queue-fila/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/2-queue-fila" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures" -B"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug"
+  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/2-queue-fila" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms" -B"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -207,7 +197,7 @@ build 2-queue-fila/rebuild_cache: phony 2-queue-fila/CMakeFiles/rebuild_cache.ut
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/CMakeLists.txt
+# /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -219,13 +209,17 @@ build 2-queue-fila/rebuild_cache: phony 2-queue-fila/CMakeFiles/rebuild_cache.ut
 
 build cmake_object_order_depends_target_linkedlist: phony || .
 
-build 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/main.cpp.o: CXX_COMPILER__linkedlist_unscanned_Debug /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/3-linkedList-ListaEncadeada/main.cpp || cmake_object_order_depends_target_linkedlist
+build 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/main.cpp.o: CXX_COMPILER__linkedlist_unscanned_Debug /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/3-linkedList-ListaEncadeada/main.cpp || cmake_object_order_depends_target_linkedlist
   DEP_FILE = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
   OBJECT_DIR = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir
   OBJECT_FILE_DIR = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir
-  TARGET_COMPILE_PDB = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/
-  TARGET_PDB = 3-linkedList-ListaEncadeada/linkedlist.pdb
+
+build 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/__/4-recursion-sum-of-a-list/main.cpp.o: CXX_COMPILER__linkedlist_unscanned_Debug /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/4-recursion-sum-of-a-list/main.cpp || cmake_object_order_depends_target_linkedlist
+  DEP_FILE = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/__/4-recursion-sum-of-a-list/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir
+  OBJECT_FILE_DIR = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/__/4-recursion-sum-of-a-list
 
 
 # =============================================================================
@@ -235,21 +229,20 @@ build 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/main.cpp.o: CXX_COMP
 #############################################
 # Link the executable 3-linkedList-ListaEncadeada/linkedlist
 
-build 3-linkedList-ListaEncadeada/linkedlist: CXX_EXECUTABLE_LINKER__linkedlist_Debug 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/main.cpp.o
+build 3-linkedList-ListaEncadeada/linkedlist: CXX_EXECUTABLE_LINKER__linkedlist_Debug 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/main.cpp.o 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/__/4-recursion-sum-of-a-list/main.cpp.o
   FLAGS = -g
   OBJECT_DIR = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/
   TARGET_FILE = 3-linkedList-ListaEncadeada/linkedlist
-  TARGET_PDB = 3-linkedList-ListaEncadeada/linkedlist.pdb
+  TARGET_PDB = linkedlist.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build 3-linkedList-ListaEncadeada/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/3-linkedList-ListaEncadeada" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -260,7 +253,7 @@ build 3-linkedList-ListaEncadeada/edit_cache: phony 3-linkedList-ListaEncadeada/
 # Utility command for rebuild_cache
 
 build 3-linkedList-ListaEncadeada/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures" -B"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug"
+  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/3-linkedList-ListaEncadeada" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms" -B"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -268,7 +261,129 @@ build 3-linkedList-ListaEncadeada/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 3-linkedList-ListaEncadeada/rebuild_cache: phony 3-linkedList-ListaEncadeada/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4-factorial
+
+
+#############################################
+# Order-only phony target for 4-factorial
+
+build cmake_object_order_depends_target_4-factorial: phony || .
+
+build 4-recursion-factorial/CMakeFiles/4-factorial.dir/main.cpp.o: CXX_COMPILER__4-factorial_unscanned_Debug /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/4-recursion-factorial/main.cpp || cmake_object_order_depends_target_4-factorial
+  DEP_FILE = 4-recursion-factorial/CMakeFiles/4-factorial.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = 4-recursion-factorial/CMakeFiles/4-factorial.dir
+  OBJECT_FILE_DIR = 4-recursion-factorial/CMakeFiles/4-factorial.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-factorial
+
+
+#############################################
+# Link the executable 4-recursion-factorial/4-factorial
+
+build 4-recursion-factorial/4-factorial: CXX_EXECUTABLE_LINKER__4-factorial_Debug 4-recursion-factorial/CMakeFiles/4-factorial.dir/main.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = 4-recursion-factorial/CMakeFiles/4-factorial.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 4-recursion-factorial/4-factorial
+  TARGET_PDB = 4-factorial.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 4-recursion-factorial/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/4-recursion-factorial" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 4-recursion-factorial/edit_cache: phony 4-recursion-factorial/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 4-recursion-factorial/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/4-recursion-factorial" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms" -B"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 4-recursion-factorial/rebuild_cache: phony 4-recursion-factorial/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4-recursion-sum-of-a-list
+
+
+#############################################
+# Order-only phony target for 4-recursion-sum-of-a-list
+
+build cmake_object_order_depends_target_4-recursion-sum-of-a-list: phony || .
+
+build 4-recursion-sum-of-a-list/CMakeFiles/4-recursion-sum-of-a-list.dir/main.cpp.o: CXX_COMPILER__4-recursion-sum-of-a-list_unscanned_Debug /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/4-recursion-sum-of-a-list/main.cpp || cmake_object_order_depends_target_4-recursion-sum-of-a-list
+  DEP_FILE = 4-recursion-sum-of-a-list/CMakeFiles/4-recursion-sum-of-a-list.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = 4-recursion-sum-of-a-list/CMakeFiles/4-recursion-sum-of-a-list.dir
+  OBJECT_FILE_DIR = 4-recursion-sum-of-a-list/CMakeFiles/4-recursion-sum-of-a-list.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-recursion-sum-of-a-list
+
+
+#############################################
+# Link the executable 4-recursion-sum-of-a-list/4-recursion-sum-of-a-list
+
+build 4-recursion-sum-of-a-list/4-recursion-sum-of-a-list: CXX_EXECUTABLE_LINKER__4-recursion-sum-of-a-list_Debug 4-recursion-sum-of-a-list/CMakeFiles/4-recursion-sum-of-a-list.dir/main.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = 4-recursion-sum-of-a-list/CMakeFiles/4-recursion-sum-of-a-list.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 4-recursion-sum-of-a-list/4-recursion-sum-of-a-list
+  TARGET_PDB = 4-recursion-sum-of-a-list.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 4-recursion-sum-of-a-list/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/4-recursion-sum-of-a-list" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 4-recursion-sum-of-a-list/edit_cache: phony 4-recursion-sum-of-a-list/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 4-recursion-sum-of-a-list/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/4-recursion-sum-of-a-list" && /home/stpimenta/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms" -B"/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 4-recursion-sum-of-a-list/rebuild_cache: phony 4-recursion-sum-of-a-list/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build 4-factorial: phony 4-recursion-factorial/4-factorial
+
+build 4-recursion-sum-of-a-list: phony 4-recursion-sum-of-a-list/4-recursion-sum-of-a-list
 
 build linkedlist: phony 3-linkedList-ListaEncadeada/linkedlist
 
@@ -282,30 +397,44 @@ build stack: phony 1-stack-pilha/stack
 # =============================================================================
 
 #############################################
-# Folder: /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug
+# Folder: /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug
 
-build all: phony 1-stack-pilha/all 2-queue-fila/all 3-linkedList-ListaEncadeada/all
+build all: phony 1-stack-pilha/all 2-queue-fila/all 3-linkedList-ListaEncadeada/all 4-recursion-factorial/all 4-recursion-sum-of-a-list/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/1-stack-pilha
+# Folder: /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/1-stack-pilha
 
 build 1-stack-pilha/all: phony 1-stack-pilha/stack
 
 # =============================================================================
 
 #############################################
-# Folder: /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/2-queue-fila
+# Folder: /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/2-queue-fila
 
 build 2-queue-fila/all: phony 2-queue-fila/queue
 
 # =============================================================================
 
 #############################################
-# Folder: /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/cmake-build-debug/3-linkedList-ListaEncadeada
+# Folder: /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/3-linkedList-ListaEncadeada
 
 build 3-linkedList-ListaEncadeada/all: phony 3-linkedList-ListaEncadeada/linkedlist
+
+# =============================================================================
+
+#############################################
+# Folder: /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/4-recursion-factorial
+
+build 4-recursion-factorial/all: phony 4-recursion-factorial/4-factorial
+
+# =============================================================================
+
+#############################################
+# Folder: /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug/4-recursion-sum-of-a-list
+
+build 4-recursion-sum-of-a-list/all: phony 4-recursion-sum-of-a-list/4-recursion-sum-of-a-list
 
 # =============================================================================
 # Built-in targets
@@ -314,14 +443,14 @@ build 3-linkedList-ListaEncadeada/all: phony 3-linkedList-ListaEncadeada/linkedl
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/1-stack-pilha/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/2-queue-fila/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/3-linkedList-ListaEncadeada/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/CMakeLists.txt /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Determine-CXX.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/1-stack-pilha/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/2-queue-fila/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/3-linkedList-ListaEncadeada/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/4-recursion-factorial/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/4-recursion-sum-of-a-list/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/CMakeLists.txt /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/1-stack-pilha/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/2-queue-fila/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/3-linkedList-ListaEncadeada/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingDataStructures/CMakeLists.txt /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Determine-CXX.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/1-stack-pilha/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/2-queue-fila/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/3-linkedList-ListaEncadeada/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/4-recursion-factorial/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/4-recursion-sum-of-a-list/CMakeLists.txt /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/CMakeLists.txt /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/stpimenta/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

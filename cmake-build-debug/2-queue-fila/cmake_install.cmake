@@ -1,4 +1,4 @@
-# Install script for directory: /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingDataStructures/2-queue-fila
+# Install script for directory: /home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos próprios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/2-queue-fila
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
