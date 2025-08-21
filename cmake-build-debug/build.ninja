@@ -215,12 +215,6 @@ build 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/main.cpp.o: CXX_COMP
   OBJECT_DIR = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir
   OBJECT_FILE_DIR = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir
 
-build 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/__/4-recursion-sum-of-a-list/main.cpp.o: CXX_COMPILER__linkedlist_unscanned_Debug /home/stpimenta/Desktop/Meus$ Documentos/Estudos-Atual/Estudos$ próprios/C++$ e$ estrutura$ de$ dados/studyingDataStructures/studyingAlgorithms/4-recursion-sum-of-a-list/main.cpp || cmake_object_order_depends_target_linkedlist
-  DEP_FILE = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/__/4-recursion-sum-of-a-list/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  OBJECT_DIR = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir
-  OBJECT_FILE_DIR = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/__/4-recursion-sum-of-a-list
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target linkedlist
@@ -229,7 +223,7 @@ build 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/__/4-recursion-sum-o
 #############################################
 # Link the executable 3-linkedList-ListaEncadeada/linkedlist
 
-build 3-linkedList-ListaEncadeada/linkedlist: CXX_EXECUTABLE_LINKER__linkedlist_Debug 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/main.cpp.o 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/__/4-recursion-sum-of-a-list/main.cpp.o
+build 3-linkedList-ListaEncadeada/linkedlist: CXX_EXECUTABLE_LINKER__linkedlist_Debug 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir/main.cpp.o
   FLAGS = -g
   OBJECT_DIR = 3-linkedList-ListaEncadeada/CMakeFiles/linkedlist.dir
   POST_BUILD = :

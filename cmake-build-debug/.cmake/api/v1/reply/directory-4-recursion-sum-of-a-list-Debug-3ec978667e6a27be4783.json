@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "4-recursion-sum-of-a-list",
+		"source" : "4-recursion-sum-of-a-list"
+	}
+}

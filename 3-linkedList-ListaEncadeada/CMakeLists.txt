@@ -4,5 +4,6 @@ project(linkedlist)
 set(CMAKE_CXX_STANDARD 17)
 file(GLOB_RECURSE SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
 add_executable(linkedlist ${SOURCES}
-        ../4-recursion-sum-of-a-list/main.cpp)
+        ../3-linkedList-ListaEncadeada/main.cpp
+        linkedList/linkedList.h)
 target_include_directories(stack PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})

@@ -1,0 +1,231 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "1-stack-pilha",
+					"jsonFile" : "directory-1-stack-pilha-Debug-78184e93e3f9a8e92922.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "1-stack-pilha",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "2-queue-fila",
+					"jsonFile" : "directory-2-queue-fila-Debug-a1b8b4634364cfcf1118.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "2-queue-fila",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "3-linkedList-ListaEncadeada",
+					"jsonFile" : "directory-3-linkedList-ListaEncadeada-Debug-861593ab3e92e71c6654.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "3-linkedList-ListaEncadeada",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "4-recursion-factorial",
+					"jsonFile" : "directory-4-recursion-factorial-Debug-40b5c21374c2b1ae79b1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "4-recursion-factorial",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "4-recursion-sum-of-a-list",
+					"jsonFile" : "directory-4-recursion-sum-of-a-list-Debug-3ec978667e6a27be4783.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "4-recursion-sum-of-a-list",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MyChallenges"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "stack",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "queue",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "linkedlist",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "4-recursion-factorial",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "4-recursion-sum-of-a-list",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "4-factorial::@f247dfdc418e678fe1fd",
+					"jsonFile" : "target-4-factorial-Debug-193e06490d9a1fd47b87.json",
+					"name" : "4-factorial",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "4-recursion-sum-of-a-list::@32b6fa7273c2e05c0257",
+					"jsonFile" : "target-4-recursion-sum-of-a-list-Debug-84dc77649daf0321dd26.json",
+					"name" : "4-recursion-sum-of-a-list",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "linkedlist::@19a656639ef7684c7a4a",
+					"jsonFile" : "target-linkedlist-Debug-a041f46659811c8ad41c.json",
+					"name" : "linkedlist",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "queue::@827132428d02ad79dbfd",
+					"jsonFile" : "target-queue-Debug-7950b66d7b586f6be4b5.json",
+					"name" : "queue",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "stack::@2b80f126cd4661cc648f",
+					"jsonFile" : "target-stack-Debug-f963bcea5fee7f2159ac.json",
+					"name" : "stack",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos pr\u00f3prios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms/cmake-build-debug",
+		"source" : "/home/stpimenta/Desktop/Meus Documentos/Estudos-Atual/Estudos pr\u00f3prios/C++ e estrutura de dados/studyingDataStructures/studyingAlgorithms"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
