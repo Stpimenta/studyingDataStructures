@@ -35,7 +35,7 @@ class LinkedList {
         void popBack();
         void print();
         int size();
-        T getIndex(int index);
+        T& getIndex(int index);
         void removeAt(int index);
         void setIndex(int index, T value);
 
@@ -174,7 +174,7 @@ void LinkedList<T>::removeAt(int index) {
 }
 
 template <typename T>
-T LinkedList<T>::getIndex(int index) {
+T& LinkedList<T>::getIndex(int index) {
 
     Node<T> *current = firstNode;
 
@@ -211,7 +211,7 @@ void LinkedList<T>::setIndex(int index, T value) {
 
 template <typename T>
 int LinkedList<T>::size() {
-    std::cout << "size:" << listSize << std::endl;
+    // std::cout << "size:" << listSize << std::endl;
     return  listSize;
 }
 
