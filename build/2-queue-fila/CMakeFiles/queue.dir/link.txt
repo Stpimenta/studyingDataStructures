@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/queue.dir/main.cpp.o CMakeFiles/queue.dir/queue/queue.cpp.o -o queue 
